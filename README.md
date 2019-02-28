@@ -1,4 +1,4 @@
-![Logo of the project](https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg)
+![Logo of the project](https://www.javatpoint.com/js/nodejs/images/node-js-tutorial.png)
 
 # Express Authentication
 
