@@ -1,4 +1,4 @@
-![Logo of the project](https://www.javatpoint.com/js/nodejs/images/node-js-tutorial.png)
+![Logo of the project](https://cdn.iconscout.com/icon/free/png-256/nodejs-2-226035.png)
 
 # Express Authentication
 
@@ -18,4 +18,4 @@ npm run dev
 
 ## Licensing
 
-"The code in this project is licensed under MIT license."
+The code in this project is licensed under MIT license.
