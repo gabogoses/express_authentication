@@ -1,8 +1,6 @@
-![Logo of the project](https://nodejs.org/static/images/logo.svg)
+![Logo of the project](https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg)
 
 # Express Authentication
-
-> Additional information or tagline
 
 A complete authentication app with login, register and access control using node.js, Express, Passport, Mongoose
 
