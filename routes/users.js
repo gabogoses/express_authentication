@@ -19,16 +19,16 @@ router.post("/register", (req, res) => {
 
   // Check required fields
   if (!name || !email || !password || !password2)
-    errors.push({ msg: "Please fill in all fields" });
+    errors.push({ msg: "Please fill in all fields 🖋" });
 
   // Check password match
   if (password !== password2) {
-    errors.push({ msg: "Password do not match" });
+    errors.push({ msg: "Password do not match 🔒" });
   }
 
   // Check pass length
   if (password.length < 6) {
-    errors.push({ msg: "Password should be at least 6 characters" });
+    errors.push({ msg: "Password should be at least 6 characters 🔐" });
   }
   if (errors.length > 0) {
     res.render("register", {
@@ -43,7 +43,7 @@ router.post("/register", (req, res) => {
     User.findOne({ email: email }).then(user => {
       if (user) {
         // User exist
-        errors.push({ msg: "Email is already registered" });
+        errors.push({ msg: "Email is already registered 👮🏻‍" });
         res.render("register", {
           errors,
           name,
@@ -66,7 +66,10 @@ router.post("/register", (req, res) => {
             newUser.password = hash;
             //Save user
             newUser.save().then(user => {
-              req.flash("success_msg", "You are now registered and can log in");
+              req.flash(
+                "success_msg",
+                "You are now registered and can log in 🏄🏻‍"
+              );
               res.redirect("/users/login");
             });
           })
@@ -88,7 +91,7 @@ router.post("/login", (req, res, next) => {
 // Logout Handle
 router.get("/logout", (req, res) => {
   req.logout();
-  req.flash("success_msg", "You are logged out");
+  req.flash("success_msg", "You are logged out 🛸");
   res.redirect("/users/login");
 });
 
