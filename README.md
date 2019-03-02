@@ -13,7 +13,7 @@ npm run dev
 
 ## Links
 
-- Project homepage:
+- Project homepage: https://express-authentication-gabo.herokuapp.com/
 - Repository: https://github.com/gabogoses/express_authentication
 
 ## Licensing
