@@ -1,0 +1,15 @@
+{
+  "name": "Node.js - Authenticate App",
+  "short_name": "Authenticate App",
+  "description": "A complete authentication app with login, register and access control using node.js, Express, Passport, Mongoose",
+  "start_url": "/",
+  "background_color": "#FFF",
+  "theme_color": "#FFF",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "32x32",
+      "type": "/public/img"
+    }
+  ]
+}
