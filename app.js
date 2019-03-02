@@ -26,6 +26,9 @@ app.set("view engine", "ejs");
 // Bodyparser
 app.use(express.urlencoded({ extended: false }));
 
+// Access to Public Folder
+app.use(express.static(__dirname + "/public"));
+
 // Express Session
 app.use(
   session({
